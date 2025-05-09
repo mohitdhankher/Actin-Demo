@@ -1,7 +1,7 @@
 # Name of workflow
 name: Lint workflow
 
-# Trigger workflow on all pull requests
+# Run Trigger workflow on all pull requests
 on:
   pull_request:
     branches:
@@ -32,3 +32,4 @@ jobs:
       # Run lint
       - name: Run Lint
         run: npm run lint
+  
